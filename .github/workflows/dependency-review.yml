@@ -7,7 +7,7 @@
 name: 'Dependency Review'
 on: [pull_request]
   schedule:
-    - cron: '23 19 * * 6'
+    - cron: '20 16 * * *'
     
 permissions:
   contents: read
